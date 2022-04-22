@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chesss</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .first div {
+        height: 100px;
+        width: 100px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .first div:nth-last-of-type(2n) {
+        background-color: black;
+        color: white;
+      }
+      .first div:nth-last-of-type(2n-1) {
+        background-color: white;
+      }
+      .second div {
+        height: 100px;
+        width: 100px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .second div i {
+        font-size: 4em;
+      }
+      .first div i {
+        font-size: 4em;
+      }
+      .second div:nth-last-of-type(2n) {
+        background-color: white;
+      }
+      .second div:nth-last-of-type(2n-1) {
+        background-color: black;
+        color: white;
+      }
+      .frame {
+        border: 5px solid black;
+        display: inline-block;
+      }
+      .frame2 {
+        padding: 10px;
+        background-color: white;
+        display: inline-block;
+      }
+      section {
+        display: flex;
+      }
+      .outer {
+        background-color: black;
+        padding: 15px;
+        display: inline-flex;
+      }
+      .nums {
+        padding-top: 15px;
+      }
+      .nums div {
+        height: 100px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      .nums:hover {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="nums">
+        <div>8</div>
+        <div>7</div>
+        <div>6</div>
+        <div>5</div>
+        <div>4</div>
+        <div>3</div>
+        <div>2</div>
+        <div>1</div>
+      </div>
+      <div class="frame2">
+        <div class="frame">
+          <section class="second">
+            <div><i class="fas fa-chess-rook"></i></div>
+            <div><i class="fas fa-chess-knight"></i></div>
+            <div><i class="fas fa-chess-bishop"></i></div>
+            <div><i class="fas fa-chess-queen"></i></div>
+            <div><i class="fas fa-chess-king"></i></div>
+            <div><i class="fas fa-chess-bishop"></i></div>
+            <div><i class="fas fa-chess-knight"></i></div>
+            <div><i class="fas fa-chess-rook"></i></div>
+          </section>
+          <section class="first">
+            <div><i class="fas fa-chess-pawn"></i></div>
+            <div><i class="fas fa-chess-pawn"></i></div>
+            <div><i class="fas fa-chess-pawn"></i></div>
+            <div><i class="fas fa-chess-pawn"></i></div>
+            <div><i class="fas fa-chess-pawn"></i></div>
+            <div><i class="fas fa-chess-pawn"></i></div>
+            <div><i class="fas fa-chess-pawn"></i></div>
+            <div><i class="fas fa-chess-pawn"></i></div>
+          </section>
+          <section class="second">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </section>
+          <section class="first">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </section>
+          <section class="second">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </section>
+          <section class="first">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </section>
+          <section class="second">
+            <div><i class="fas fa-chess-pawn"></i></div>
+            <div><i class="fas fa-chess-pawn"></i></div>
+            <div><i class="fas fa-chess-pawn"></i></div>
+            <div><i class="fas fa-chess-pawn"></i></div>
+            <div><i class="fas fa-chess-pawn"></i></div>
+            <div><i class="fas fa-chess-pawn"></i></div>
+            <div><i class="fas fa-chess-pawn"></i></div>
+            <div><i class="fas fa-chess-pawn"></i></div>
+          </section>
+          <section class="first">
+            <div><i class="fas fa-chess-rook"></i></div>
+            <div><i class="fas fa-chess-knight"></i></div>
+            <div><i class="fas fa-chess-bishop"></i></div>
+            <div><i class="fas fa-chess-queen"></i></div>
+            <div><i class="fas fa-chess-king"></i></div>
+            <div><i class="fas fa-chess-bishop"></i></div>
+            <div><i class="fas fa-chess-knight"></i></div>
+            <div><i class="fas fa-chess-rook"></i></div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
